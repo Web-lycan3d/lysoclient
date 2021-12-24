@@ -1,0 +1,121 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+  position: relative;
+
+  h3 {
+    color: #000000;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    margin: 8rem 0 0;
+    font-weight: 600;
+  }
+
+  h1 {
+    color: #466aff;
+    width: 70%;
+    font-size: 70px;
+    font-family: "Archivo", sans-serif;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+
+    span:nth-child(1) {
+      color: #466aff;
+      display: contents;
+    }
+
+    span:nth-child(2) {
+      text-decoration: underline;
+      display: contents;
+    }
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 15rem;
+
+    .about-text {
+      display: flex;
+      flex: 1;
+
+      p {
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        text-align: left;
+      }
+    }
+
+    .about-img {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      align-items: center;
+
+      img {
+        width: 70%;
+        height: auto;
+      }
+    }
+  }
+
+  .dotted-line {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 34%;
+    top: 29%;
+    right: 14%;
+
+    img {
+      width: 70%;
+      height: auto;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+  .about-container h3 {
+    font-size: 20px;
+  }
+  .about-container h1 {
+    width: 100%;
+    font-size: 31px;
+  }
+  .about-container .about-content {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+  .about-container .about-content .about-text p {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-align: left;
+  }
+  .about-container .about-content .about-img img {
+    width: 100%;
+    height: auto;
+  }
+  .about-container .dotted-line {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 57%;
+    top: 25%;
+    left: 0%;
+  }
+}

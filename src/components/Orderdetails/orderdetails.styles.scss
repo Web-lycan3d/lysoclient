@@ -1,0 +1,85 @@
+/** @format */
+.order-details-overflow {
+  width: 100%;
+
+  min-height: 18rem;
+}
+.orderdetails-box {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  margin: 2rem auto 3rem;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.096);
+  padding-bottom: 2rem;
+}
+.no-orders {
+  margin-top: 2rem;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #1a2771;
+  h2 {
+    color: rgb(240, 72, 72);
+    font-size: 1.6rem;
+  }
+}
+.orderdetails-contents {
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  h2 {
+    margin-top: 0.8rem;
+    text-transform: capitalize;
+    font-size: 1.9rem;
+  }
+  .orderdetails-userdetails {
+    width: 35rem;
+    p {
+      font-size: 0.9rem;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+  .orderdetails-select {
+    margin: 2rem 0;
+    position: relative;
+    bottom: 0.8rem;
+    height: 100%;
+    .admin-form {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      justify-content: center;
+    }
+    select {
+      border-radius: 5px;
+      font-family: "Poppins", sans-serif;
+      width: 15rem;
+      padding: 0.35rem 0.5rem;
+      border: 2px solid black;
+    }
+    span {
+      font-size: 0.8rem;
+      margin-top: 0.25rem;
+      color: #0a22a8;
+    }
+    .custom-btn {
+      display: block;
+      justify-items: flex-end;
+      position: relative;
+      padding: 0.25rem 0.2rem;
+      width: 100%;
+      font-size: 0.95rem;
+      margin: 2rem 0 0;
+      border-radius: 5px;
+    }
+  }
+}

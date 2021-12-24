@@ -1,0 +1,242 @@
+/** @format */
+
+@mixin heading {
+  font-size: 60px;
+  font-weight: 200;
+  font-family: "Archivo", sans-serif;
+}
+
+@mixin cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.survey {
+  overflow-x: hidden;
+}
+.survey-1cont {
+  @include cont;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  header {
+    position: absolute;
+    top: 40%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+      @include heading;
+      color: #fff;
+      letter-spacing: 1rem;
+    }
+
+    p {
+      font-size: 18px;
+      font-family: "Archivo", sans-serif;
+      color: #fff;
+      text-align: center;
+      padding-top: 2.8rem;
+      line-height: 2rem;
+      letter-spacing: 1px;
+    }
+  }
+}
+.survey-2cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem 4rem 1rem;
+  justify-content: space-between;
+  gap: 5%;
+
+  .survey-2cont-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+
+    h1 {
+      @include heading;
+      color: #466aff;
+      letter-spacing: 0.2rem;
+      font-size: 50px;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 19px;
+      font-family: "Archivo", sans-serif;
+      color: #000000;
+      text-align: left;
+      padding-top: 2.8rem;
+      line-height: 2rem;
+      font-weight: 500;
+      letter-spacing: 1.25px;
+    }
+  }
+
+  .survey-2cont-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+.survey-3cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  .survey-3cont-img {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .survey-3cont-content {
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    flex-direction: column;
+
+    .flkjjb {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 0.8rem;
+
+      span {
+        font-size: 25px;
+        font-family: "Archivo", sans-serif;
+        color: #466aff;
+        font-weight: 500;
+      }
+    }
+
+    .bgdfgdc {
+      display: flex;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 0.1rem;
+      gap: 10px;
+
+      span {
+        font-family: "Archivo", sans-serif;
+        font-size: 18px;
+        margin: 0.25rem 0;
+        color: #000000;
+        font-weight: 300;
+      }
+    }
+  }
+}
+.survey-4cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 0rem;
+  font-family: "Archivo", sans-serif;
+  button {
+    font-family: "Archivo", sans-serif;
+  }
+  span {
+    font-size: 35px;
+    font-family: "Archivo", sans-serif;
+    color: #466aff;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .survey-1cont header {
+    top: 25%;
+    width: 90%;
+    left: 5%;
+  }
+  .survey-1cont header span {
+    font-size: 50px;
+    letter-spacing: 0.8rem;
+  }
+  .survey-1cont header p {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .survey-2cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 1rem;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  .survey-2cont .survey-2cont-content {
+    width: 100%;
+  }
+  .survey-2cont .survey-2cont-img {
+    width: 100%;
+  }
+  .survey-2cont .survey-2cont-content h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .survey-2cont .survey-2cont-content p {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .survey-4cont {
+    padding: 2rem 0rem;
+  }
+  .survey-4cont span {
+    font-size: 20px;
+    font-family: "Archivo", sans-serif;
+    color: #466aff;
+    font-weight: 400;
+    text-align: center;
+  }
+  .survey-3cont {
+    flex-direction: column-reverse;
+  }
+  .survey-3cont .survey-3cont-img {
+    width: 95%;
+  }
+  .survey-3cont .survey-3cont-content {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  .survey-3cont .survey-3cont-content .flkjjb span {
+    font-size: 20px;
+    font-family: "Archivo", sans-serif;
+    color: #466aff;
+  }
+  .survey-3cont .survey-3cont-content .bgdfgdc span {
+    font-size: 15px;
+  }
+}

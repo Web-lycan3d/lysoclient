@@ -1,0 +1,16 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800&display=swap");
+
+.btn {
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  font-size: 16px;
+  background: linear-gradient(107deg, #60b9f2, #466aff);
+  border-radius: 30px;
+  color: #fff;
+  border: 0;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

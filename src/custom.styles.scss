@@ -1,0 +1,92 @@
+/** @format */
+
+.custom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  width: 10rem;
+  color: white;
+  font-size: 1.05rem;
+  border-radius: 30px;
+  padding: 0.5rem 1.4rem;
+  outline: 0;
+  border: 0;
+  background: transparent linear-gradient(107deg, #60b9f2 0%, #2269e9 100%) 0%
+    0% no-repeat padding-box;
+  border: 2px solid #2268e900;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+  &:hover {
+    border: 2px solid #2268e983;
+    background: transparent;
+    color: black;
+  }
+  &:active {
+    border: 2px solid #2268e983;
+    background: transparent;
+    color: black;
+    transform: scale(0.9);
+  }
+  &:hover .thunder-icon {
+    color: #2269e9;
+  }
+}
+
+.landing-h2 {
+  letter-spacing: 1.56px;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  .landing-span {
+    font-weight: 700;
+  }
+}
+//loadercss
+.home-loader-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.781);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-loader-spinner {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 0.3rem solid rgba(255, 255, 255, 0.2);
+  border-top-color: rgb(0, 0, 0);
+  animation: spin 0.9s infinite linear;
+  margin-right: 0.5rem;
+
+  // width: 100px;
+  // height: 100px;
+  // background-color: black;
+}
+@keyframes spin {
+  0% {
+    transform: rot updating array inside ate(0deg);
+    border-top-color: rgb(0, 0, 0);
+  }
+  25% {
+    border-top-color: rgb(5, 121, 253);
+  }
+  50% {
+    border-top-color: rgb(5, 167, 78);
+  }
+  75% {
+    border-top-color: rgb(189, 50, 32);
+  }
+  100% {
+    transform: rotate(360deg);
+    border-top-color: rgb(0, 0, 0);
+  }
+}
