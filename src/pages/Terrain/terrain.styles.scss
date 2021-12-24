@@ -210,6 +210,9 @@
         color: rgba(158, 158, 158, 0.884);
       }
     }
+    textarea {
+      overflow: hidden;
+    }
     button {
       font-size: 0.9rem;
       font-family: "Poppins", sans-serif;
