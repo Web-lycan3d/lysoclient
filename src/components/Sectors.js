@@ -17,7 +17,7 @@ export const Sectors = [
         bg: "https://i.ibb.co/kS6GkTD/Group-9462.webp",
         imgUrl: "https://i.ibb.co/pnzNGB7/Group-5062-min-1.webp",
         itemDetails:
-          "Across the mining industry, our drones are demonstrating exceptional results by enabling much greater data collection, enhancing safety and improving productivity. The popularity of drone technology across the mining industry has grown significantly in recent years.",
+          "Across the mining industry., our drones are demonstrating exceptional results by enabling much greater data collection., enhancing safety and improving productivity. The popularity of drone technology across the mining industry has grown significantly in recent years.",
       },
       {
         mainBg: "https://i.ibb.co/3cDF8nj/Mask-Group-13.webp",
@@ -32,7 +32,7 @@ export const Sectors = [
         imgUrl:
           "https://i.ibb.co/kHxCvCc/pexels-janrune-smenes-reite-3207536.webp",
         itemDetails:
-          "In the oil and gas industry, our drones are often used in performing inspection and predictive maintenance of critical infrastructure. Our drones are used in collaboration with oil and gas companies to develop applications that can be customised and help facilitate different types of data collection obtaining real-time insights.",
+          "In the oil and gas industry., our drones are often used in performing inspection and predictive maintenance of critical infrastructure. Our drones are used in collaboration with oil and gas companies to develop applications that can be customised and help facilitate different types of data collection obtaining real-time insights.",
       },
       {
         mainBg: "https://i.ibb.co/sjRMzyY/Mask-Group-13-min-11.webp",
@@ -405,7 +405,7 @@ export const Sectors = [
         allDetails:
           "Drones are becoming increasingly popular in modern logistics operations. Drone delivery operations are gaining widespread importance in last-mile delivery given their accuracy environment-friendly operations shorter delivery time and lower operational cost than traditional delivery channels., Our delivery drones are able to transport medicines parcels groceries food and other homecare products.High capacity and long-range deliveries via cargo drones are becoming increasingly feasible. Instead of bundling goods in trucks or trains according to a fixed schedule our cargo drones can transport fewer items more often with more flexibility.",
         application:
-          "Manufacturing processes often depend on just-in-sequence delivery of materials. In order to ensure the availability of the right material at the right time our drones can be deployed to deliver single items directly to the production line, Our drones offer smooth delivery of goods without the need for delivery trucks and vans which can help drastically reduce road congestion. Our drones also aid in reducing environmental pollution as they are more convenient and efficient than trucks and as a result helps reduce carbon emissions in the environment Our delivery drones can carry packages to the desired setpoint without getting affected by road traffic and on a planned optimized route. As a result customers are able to get their delivery in a much shorter period of time, Drone shipping also has several benefits for both businesses and customers. Delivery times are reduced from two to three days down to a matter of hours plus there is less chance of packages being damaged during transit and handling.",
+          "Manufacturing processes often depend on just-in-sequence delivery of materials. In order to ensure the availability of the right material at the right time our drones can be deployed to deliver single items directly to the production line., Our drones offer smooth delivery of goods without the need for delivery trucks and vans which can help drastically reduce road congestion. Our drones also aid in reducing environmental pollution as they are more convenient and efficient than trucks and as a result helps reduce carbon emissions in the environment Our delivery drones can carry packages to the desired setpoint without getting affected by road traffic and on a planned optimized route. As a result customers are able to get their delivery in a much shorter period of time., Drone shipping also has several benefits for both businesses and customers. Delivery times are reduced from two to three days down to a matter of hours plus there is less chance of packages being damaged during transit and handling.",
         bg: "https://i.ibb.co/tbJ27vS/Group-9478.webp",
         itemName: "Cargo",
         imgUrl:

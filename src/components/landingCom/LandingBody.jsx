@@ -24,25 +24,15 @@ const LandingBody = () => {
             src="https://i.ibb.co/hZMwZnf/1-min-1.webp"
             path="/sector/1?type=Mining"
             bodyText="In the energy sector, drones are often used in performing inspection and predictive maintenance of critical systems such as oil and gas rigs, solar farms and wind turbines. Our drones are used in collaboration with energy companies to develop applications that can be customised and help facilitate different types of data collection obtaining real-time insights."
-<<<<<<< HEAD
           />{" "}
           <Landindbodyimg
-            text="Enviroment"
-            src="https://i.ibb.co/rmm5d58/neostalgic-Dz-Uxa-Wweq-XI-unsplash-min-1.webp"
-            path="/sector/2?type=Seed Plantation"
-            bodyText="Drones are able to monitor different aspects of the environment and help to better understand and track the health of ecosystems and their inhabitants. Aerial imagery captured by our drones creates a complete, detailed picture of the environment and provides comprehensive insights and analysis."
-          />{" "}
-          <Landindbodyimg
-            text="infrastructure"
-=======
-          />   <Landindbodyimg
             text="Environment"
             src="https://i.ibb.co/rmm5d58/neostalgic-Dz-Uxa-Wweq-XI-unsplash-min-1.webp"
             path="/sector/2?type=Seed Plantation"
             bodyText="Drones are able to monitor different aspects of the environment and help to better understand and track the health of ecosystems and their inhabitants. Aerial imagery captured by our drones creates a complete, detailed picture of the environment and provides comprehensive insights and analysis."
-          />   <Landindbodyimg
+          />{" "}
+          <Landindbodyimg
             text="Infrastructure"
->>>>>>> 0e0a824e9cf4ad90e8f6bb9069dda0d23312e6e5
             src="https://i.ibb.co/TkKWyDQ/jared-murray-NSuufgf-BME-unsplash-min-1.webp"
             path="/sector/4?type=Construction"
             bodyText="In the infrastructure sector, drones are predominantly used for surveying and inspection. Companies that build and manage large infrastructure have considerable potential to use drone data to optimize their operations. Information collected from our drones provides accurate details of the exact situation and alignment of infrastructure and can save a great deal of time."
