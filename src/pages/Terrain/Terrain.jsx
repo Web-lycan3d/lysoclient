@@ -5,7 +5,7 @@ import { FiUploadCloud } from "react-icons/fi";
 import validator from "validator";
 import Api from "../../api/Api";
 import { FileUpload } from "../../components/Fileupload";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { Toaster } from "react-hot-toast";
 import InternetStaus from "../../components/InternetStaus";
@@ -18,7 +18,7 @@ const Terrain = () => {
 
   const ref = useRef();
   const ref2 = useRef();
-  const history = useHistory();
+  const terrainRef = useRef();
 
   const [userData, setUserData] = useState({
     name: "",
@@ -111,7 +111,10 @@ const Terrain = () => {
               into a surface as a Digital Terrain Model (DTM) and you are
               finally provided with your very own 3D printed terrain.
             </p>
-            <button className="custom-btn">
+
+            <button
+              className="custom-btn"
+              onClick={() => terrainRef.current.scrollIntoView()}>
               <AiFillThunderbolt className="thunder-icon" /> Print Now
             </button>
           </motion.div>
@@ -134,7 +137,7 @@ const Terrain = () => {
             </span>
           </div>
         </div>
-        <div className="terrain-footer">
+        <div ref={terrainRef} className="terrain-footer">
           <form onSubmit={handleSubmit}>
             <img src="https://i.ibb.co/3y846Fg/Group-9468.webp" alt="" />
             <div className="terrain-footer-contents">
