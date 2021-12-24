@@ -45,7 +45,7 @@ const Navbar = () => {
                     <Link to="/sector/1?type=Mining"> Energy</Link>
                   </li>
                   <li className="sector-li" onClick={handleSectorDropDown}>
-                    <Link to="/sector/2?type=Seed Plantation">Enviroment</Link>
+                    <Link to="/sector/2?type=Seed Plantation">Environment</Link>
                   </li>
                   <li className="sector-li" onClick={handleSectorDropDown}>
                     <Link to="/sector/3?type=Medical Delivery">Delivery</Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <Link to="/sector/4?type=Construction">Infrastructure</Link>
                   </li>
                   <li className="sector-li" onClick={handleSectorDropDown}>
-                    <Link to="/sector/5?type=Security">Survelience</Link>
+                    <Link to="/sector/5?type=Security">Surveillance</Link>
                   </li>
                 </ul>
               </div>

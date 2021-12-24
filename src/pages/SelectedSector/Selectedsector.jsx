@@ -92,12 +92,12 @@ const Selectedsector = () => {
           </div>
           <div className="sel-body">
             <div className="sel-body-details">
-              <h2 className="sel-h2">Application</h2>
+              <h2 className="sel-h2">Applications</h2>
               <span>{dataApplication}</span>
             </div>
             <div className="sel-sector-img">
               {" "}
-              <h2 className="sel-h2 mobile-h2">Application</h2>
+              <h2 className="sel-h2 mobile-h2">Applications</h2>
               <img src={secletedType?.imgUrl} alt="err" />
             </div>
           </div>

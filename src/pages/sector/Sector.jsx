@@ -87,7 +87,7 @@ const Sector = (props) => {
               </div>
             </div>
             <div className="sector-details">
-              <h3>Benifits</h3>
+              <h3>Benefits</h3>
               <div className="sector-details-flex">
                 <div className="sector-detail-p">
                   {secletedItem?.details?.map((data, index) => (

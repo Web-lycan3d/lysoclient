@@ -21,7 +21,7 @@ const LandingMap = () => {
             <span>
               We offer you the ability to scan your survey data and use it to
               create three dimensional scaled models for visualisation and
-              communication. The application of 3d modeling by Lyso involves
+              communication. The application of 3D modeling by LYSO involves
               manipulating the point cloud data into a 3D model suitable for
               print. The point cloud is turned into a surface as a Digital
               Terrain Model (DTM) and you are subsequently provided with your
