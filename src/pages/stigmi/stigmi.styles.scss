@@ -133,7 +133,7 @@ bottom:3rem;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   .stigmi-1cont {
     height: 90vh;
     video {
@@ -181,9 +181,9 @@ bottom:3rem;
   }
   .stigmi-3cont {
     width: 100%;
- 
+
     position: unset;
-    padding: 3.5rem 0rem 0rem;
+    padding: 4rem 0rem 0rem;
     flex-direction: column-reverse;
     
   }
@@ -213,14 +213,19 @@ bottom:3rem;
     
   } 
   .stigmi-3cont .stigmi-3cont-content p {
-    font-size: 15px;
+    font-size: 19px;
     letter-spacing: 0.1rem;
     text-align: center;
     line-height:1.5;
     padding-top:2rem;
   }
 }
-
+@media screen and (max-width: 726px) {
+  .stigmi-3cont .stigmi-3cont-content p {
+    font-size: 15px;
+    
+  }
+}
 @media (min-width: 950px) and (max-width: 1200px) {
   .stigmi-3cont .stigmi-3cont-content {
     top: 15%;
