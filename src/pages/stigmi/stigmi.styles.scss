@@ -150,7 +150,7 @@ bottom:3rem;
     bottom:2rem;
   }
   .stigmi-1cont header span:first-child {
-    font-size: 45px;
+    font-size: 42px;
     text-align: center;
     letter-spacing:9px;
     font-weight:300;
@@ -180,9 +180,11 @@ bottom:3rem;
   }
   .stigmi-3cont {
     width: 100%;
+ 
     position: unset;
-    padding: 3rem 0rem 0rem;
+    padding: 3.5rem 0rem 0rem;
     flex-direction: column-reverse;
+    
   }
   .stigmi-3cont img {
     width: 100%;
@@ -193,18 +195,20 @@ bottom:3rem;
     position: inherit;
     top: 0%;
     right: 0%;
-    width:90%;
+    width:95%;
     margin:0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position:relative;
+    bottom:2rem;
   }
   .stigmi-3cont .stigmi-3cont-content h1 {
     font-size: 30px;
  
     text-align: center;
     position:relative;
-    left:0.7rem;
+    left:1rem;
     
   } 
   .stigmi-3cont .stigmi-3cont-content p {
@@ -212,7 +216,7 @@ bottom:3rem;
     letter-spacing: 0.1rem;
     text-align: center;
     line-height:1.5;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 }
 
