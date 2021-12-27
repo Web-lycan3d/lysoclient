@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.styles.scss";
 import { MdKeyboardArrowDown } from "react-icons/md";
-
+import { motion } from "framer-motion";
 const Navbar = () => {
   const [sectorDrowpDown, setsectorDrowpDown] = useState(false);
   const [navState, setNavState] = useState(false);
@@ -114,7 +114,7 @@ const Navbar = () => {
                       ? "dropdown-sector dropdown-sector-active"
                       : "dropdown-sector"
                   }>
-                  <ul className="sector-ul">
+                  <motion.ul layout className="sector-ul">
                     <li
                       className="sector-li"
                       onClick={() => {
@@ -159,7 +159,7 @@ const Navbar = () => {
                       }}>
                       <Link to="/sector/5?type=Security">Survelience</Link>
                     </li>
-                  </ul>
+                  </motion.ul>
                 </div>
               </li>
               <li className="menu-li-flex">

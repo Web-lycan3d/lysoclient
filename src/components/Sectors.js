@@ -65,24 +65,24 @@ export const Sectors = [
     serviceList: [
       {
         listId: 1,
-        listImage: "https://i.ibb.co/p3jdTsy/Group-9484.png",
-        listtext: "Reduced Labour",
+        listImage: "https://i.ibb.co/PYLZsDm/Group-9417.png",
+        listtext: "Precise Detection",
       },
       {
         listId: 2,
-        listImage: "https://i.ibb.co/xHNdK0h/Group-9485.png",
-        listtext: "Enhanced Safety",
+        listImage: "https://i.ibb.co/HVVpSxz/Group-9414.png",
+        listtext: "Better Maintenance",
       },
 
       {
         listId: 3,
-        listImage: "https://i.ibb.co/PZpmJKt/Group-9486.png",
-        listtext: "Better Maintenance",
+        listImage: "https://i.ibb.co/k3NTWYh/Group-9416.png",
+        listtext: "Enhanced Safety",
       },
       {
         listId: 4,
-        listImage: "https://i.ibb.co/P9GWrvJ/Group-9487.png",
-        listtext: "Precise Detection",
+        listImage: "https://i.ibb.co/MkLtRLx/Group-9568.png",
+        listtext: "Reduced Labour",
       },
     ],
     details: [
@@ -175,23 +175,23 @@ export const Sectors = [
     serviceList: [
       {
         listId: 1,
-        listImage: "https://i.ibb.co/HVVpSxz/Group-9414.png",
+        listImage: "https://i.ibb.co/p3jdTsy/Group-9484.png",
         listtext: "Large Coverage",
       },
       {
         listId: 2,
-        listImage: "https://i.ibb.co/DYHWPgF/Group-9415.png",
+        listImage: "https://i.ibb.co/xHNdK0h/Group-9485.png",
         listtext: "Vertical Inspection",
       },
 
       {
         listId: 3,
-        listImage: "https://i.ibb.co/k3NTWYh/Group-9416.png",
+        listImage: "https://i.ibb.co/HVVpSxz/Group-9414.png",
         listtext: "Better Maintenance",
       },
       {
         listId: 2,
-        listImage: "https://i.ibb.co/xHNdK0h/Group-9485.png",
+        listImage: "https://i.ibb.co/k3NTWYh/Group-9416.png",
         listtext: "Enhanced Safety",
       },
     ],
@@ -265,24 +265,24 @@ export const Sectors = [
     serviceList: [
       {
         listId: 1,
-        listImage: "https://i.ibb.co/HVVpSxz/Group-9414.png",
+        listImage: "https://i.ibb.co/p3jdTsy/Group-9484.png",
         listtext: "Large Coverage",
       },
       {
         listId: 2,
-        listImage: "https://i.ibb.co/DYHWPgF/Group-9415.png",
+        listImage: "https://i.ibb.co/xHNdK0h/Group-9485.png",
         listtext: "Vertical Inspection",
       },
 
       {
         listId: 3,
-        listImage: "https://i.ibb.co/k3NTWYh/Group-9416.png",
-        listtext: "Reduced Labour",
+        listImage: "https://i.ibb.co/P9GWrvJ/Group-9487.png",
+        listtext: "High Accuracy",
       },
       {
         listId: 4,
-        listImage: "https://i.ibb.co/PYLZsDm/Group-9417.png",
-        listtext: "High Accuracy",
+        listImage: "https://i.ibb.co/MkLtRLx/Group-9568.png",
+        listtext: "Reduced Labour",
       },
     ],
     details: [
@@ -344,19 +344,21 @@ export const Sectors = [
       },
       {
         listId: 2,
-        listImage: "https://i.ibb.co/PZpmJKt/Group-9486.png",
-        listtext: "Enhanced Safety",
+        listImage: "https://i.ibb.co/DbWy9DH/Group-9575.png",
+        listtext: "Security",
+       
       },
 
       {
-        listId: 3,
-        listImage: "https://i.ibb.co/k3NTWYh/Group-9416.png",
-        listtext: "Security",
+        listId: 3, 
+        listImage: "https://i.ibb.co/PYLZsDm/Group-9417.png",
+        listtext: "Precise Detection",
+        
       },
       {
         listId: 4,
-        listImage: "https://i.ibb.co/P9GWrvJ/Group-9487.png",
-        listtext: "Precise Detection",
+        listImage: "https://i.ibb.co/k3NTWYh/Group-9416.png",
+        listtext: "Enhanced Safety",
       },
     ],
     details: [
@@ -417,24 +419,24 @@ export const Sectors = [
     serviceList: [
       {
         listId: 1,
-        listImage: "https://i.ibb.co/k3NTWYh/Group-9416.png",
-        listtext: "Reduced Labour",
+        listImage: "https://i.ibb.co/T48XWxv/Group-9662.png",
+        listtext: "Eco-Friendly",
       },
       {
         listId: 2,
-        listImage: "https://i.ibb.co/PYLZsDm/Group-9417.png",
+        listImage: "https://i.ibb.co/P9GWrvJ/Group-9487.png",
         listtext: "High Accuracy",
       },
       {
         listId: 3,
-        listImage: "https://i.ibb.co/PZpmJKt/Group-9486.png",
+        listImage: "https://i.ibb.co/XxBjWDQ/Group-9412.png",
         listtext: "Time Efficient",
       },
 
       {
         listId: 4,
-        listImage: "https://i.ibb.co/XxBjWDQ/Group-9412.png",
-        listtext: "Eco-Friendly",
+        listImage: "https://i.ibb.co/MkLtRLx/Group-9568.png",
+        listtext: "Reduced Labour",
       },
     ],
     details: [
