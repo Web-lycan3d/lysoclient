@@ -157,7 +157,7 @@ const Navbar = () => {
                         setsectorDrowpDown(!sectorDrowpDown);
                         setNavState(!navState);
                       }}>
-                      <Link to="/sector/5?type=Security">Survelience</Link>
+                      <Link to="/sector/5?type=Security">Surveillance</Link>
                     </li>
                   </motion.ul>
                 </div>
