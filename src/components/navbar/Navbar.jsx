@@ -130,7 +130,7 @@ const Navbar = () => {
                         setNavState(!navState);
                       }}>
                       <Link to="/sector/2?type=Seed Plantation">
-                        Enviroment
+                        Environment
                       </Link>
                     </li>
                     <li

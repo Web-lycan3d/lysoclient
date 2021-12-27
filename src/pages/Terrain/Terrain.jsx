@@ -126,7 +126,7 @@ const Terrain = () => {
             <h2>Customised Approach</h2>
             <span>
               There are many options when it comes to what you can create on a
-              3D printer with Survey data
+              3D printer with Survey data.
             </span>
             <span>
               Utilizing a customized approach, we ensure that every user's needs
@@ -180,7 +180,7 @@ const Terrain = () => {
               <input
                 type="text"
                 required
-                placeholder="full Name"
+                placeholder="full name"
                 minLength="4"
                 name="name"
                 onChange={(e) =>
