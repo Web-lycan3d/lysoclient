@@ -52,9 +52,9 @@ const Sector = (props) => {
         <motion.div className="sector-sidebar">
           {secletedItem?.types?.map((data, index) => (
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: index / 1.8 }}
+                initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: index / 1.75 }}
               className={
                 data.itemName === query.type
                   ? "sector-sidebar-box sector-sidebar-box-bg"
