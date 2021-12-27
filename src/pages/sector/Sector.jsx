@@ -78,7 +78,7 @@ const Sector = (props) => {
           <div className="sector-item-flex">
             <div className="sector-item-details">
               <h3>{secletedType?.itemName}</h3>
-              <p>{secletedType?.itemDetails + "..."} </p>
+              <p>{secletedType?.itemDetails + ".."} </p>
               <div className="read-more">
                 <Link
                   to={`/read/sector/?sectorName=${secletedItem?.name}&sectorId=${secletedType?.itemName}`}>
