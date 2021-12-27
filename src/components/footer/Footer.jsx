@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="footer-container" >
             <div className="footer-contents">
               <div className="footer-left">
-                <img src="https://i.ibb.co/f0Ggrj7/lyso-min.png" alt="logo" />{" "}
+                <img src="https://i.ibb.co/6bYBDsM/Component-27-1.png" alt="logo" />{" "}
               </div>
               <div className="footer-right">
                 <div className="footer-right-top">
@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="footer-container" >
             <div className="footer-contents">
               <div className="footer-left">
-                <img src="https://i.ibb.co/f0Ggrj7/lyso-min.png" alt="logo" />{" "}
+                <img src="https://i.ibb.co/6bYBDsM/Component-27-1.png" alt="logo" />{" "}
                 <span className="footer-span">
                   Copyright 2021 Bangalore India | All Rights recieved
                 </span>

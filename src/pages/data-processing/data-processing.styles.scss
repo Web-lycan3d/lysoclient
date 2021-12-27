@@ -40,13 +40,14 @@
       padding: 0 0.6rem;
       font-weight: 500;
       width: 92%;
+      letter-spacing: 1.25px;
       font-size: 1.15rem;
       line-height: 1.8;
       font-family: "Archivo", sans-serif;
 
       span {
-        font-weight: 500;
-        color: #466aff;
+        font-weight: 400;
+        color: #60B9F9;
         font-size: 1.15rem;
         letter-spacing: 0;
       }
@@ -155,7 +156,7 @@
     background-color: #fff;
 
     .form-content {
-      background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='30' ry='30' stroke='blue' stroke-width='5' stroke-dasharray='15' stroke-dashoffset='10' stroke-linecap='square'/%3e%3c/svg%3e");
+      background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='30' ry='30' stroke='black' stroke-width='5' stroke-dasharray='15' stroke-dashoffset='10' stroke-linecap='square'/%3e%3c/svg%3e");
       border-radius: 30px;
       padding: 0 1.5rem;
       position: relative;
