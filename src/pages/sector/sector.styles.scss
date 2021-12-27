@@ -210,12 +210,13 @@
     }
   }
 }
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 1795px) {
   .sector-contents {
     padding: 3% 1%;
+    justify-content:center;
   }
   .sector-items {
-    width: 80%;
+    width: 60rem;
     left: 4%;
     .sector-item-details {
       width: 350px;
@@ -229,7 +230,7 @@
     margin-left: 1.5rem;
   }
   .sector-sidebar {
-    width: 10rem;
+    width: 13.5rem;
     margin-right: 0rem;
     .sector-sidebar-box {
       text-align: center;
@@ -255,7 +256,7 @@
     }
   }
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1290px) {
   .sector-container {
     padding-bottom: 5rem;
     background-size: cover;
@@ -284,13 +285,13 @@
     }
   }
   .sector-items {
-    width: 95%;
+   max-width:59rem;
     left: 0;
     right: 0;
     margin-right: 0;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
   .sector-container {
     padding: 0;
 
