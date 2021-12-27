@@ -23,7 +23,7 @@ const Footer = () => {
               <div className="footer-right">
                 <div className="footer-right-top">
                   <span className="footer-span2">
-                    Copyright 2021 Bangalore India | All Rights recieved
+                    Copyright© 2021 Bangalore India | All Rights recieved
                   </span>
                 </div>
                 <div className="footer-right-bottom">

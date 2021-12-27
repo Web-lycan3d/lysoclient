@@ -42,7 +42,7 @@ const Landing = () => {
               </h2>
               <button className="custom-btn" onClick={() => history.push('/data_processing')}>
                 <AiFillThunderbolt className="thunder-icon" />
-                Start now
+                Start Now
               </button>
             </div>
             <p className="vertical-line"></p>
